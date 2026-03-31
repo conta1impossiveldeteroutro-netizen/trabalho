@@ -1,0 +1,68 @@
+.hachi-maru-pop-regular {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font {
+  font-family: "Hachi Maru Pop", cursive;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    #logo {
+        width: 60px;
+    }
+}
+
+@media (max-width: 640px) {
+    #logo {
+        width: 30px;
+        margin-left: 0;
+    }
+}
+
+
+#cor-1 {
+    background: #FDFFFC;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#nome {
+    font-size: 100px;
+    padding: 100px;
+    text-align: center;
+    flex: auto;
+}
+
+#quem {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    flex: auto;
+    background: #235789;
+    color: white;
+}
+
+#churro {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    flex: auto;
+    background: #EF959D;
+    color: white;
+}
+
+#contato {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    flex: auto;
+    background: #FFD400;
+    color: black;
+}
